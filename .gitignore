@@ -1,4 +1,5 @@
 bench.py
 config.json
+restults.csv
 *.o
 *.s
