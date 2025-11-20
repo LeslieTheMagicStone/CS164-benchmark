@@ -1,2 +1,4 @@
 bench.py
 config.json
+*.o
+*.s
