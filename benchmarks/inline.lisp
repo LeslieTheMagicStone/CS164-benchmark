@@ -1,5 +1,3 @@
-(define (f x y z) (+ x (+ y z)))
-(let ((x 2))
-  (let ((y 3))
-    (let ((z 4))
-      (f x y z))))
+(define (leaf x) (+ x x))
+(define (repeat-leaf n) (if (< n 0) 0 (do (leaf n) (repeat-leaf (sub1 n)))))
+(print(repeat-leaf 1000000))
